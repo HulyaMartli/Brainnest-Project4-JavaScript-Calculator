@@ -153,7 +153,7 @@ const handleKeyboard = ({ repeat, shiftKey, key }) => {
     }
 }
 
-// KEYBOARD SUPPORT INFO
+// KEYBOARD SUPPORT INFO BUTTON OPENER/CLOSER
 
 document.addEventListener('keydown', handleKeyboard)
 
