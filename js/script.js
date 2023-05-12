@@ -129,7 +129,6 @@ deleteButton.addEventListener('click', () => {
     display();
 })
 
-
 const handleKeyboard = ({ repeat, shiftKey, key }) => {
     if (repeat) return;
     if (shiftKey && key === '+') {

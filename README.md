@@ -15,4 +15,5 @@ https://javascript-calculator-purple.vercel.app/
 * Visual Studio Code
 
 ## License
+
 [Creative Commons Zero v1.0 Universal](https://choosealicense.com/licenses/cc0-1.0/)
