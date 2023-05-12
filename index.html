@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/purpleCalculator.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <button id="info-button">Keyboard Support</button>
+        <!-- The Modal -->
+        <div id="info" class="keyboard-info">
+            <!-- Modal content -->
+            <div class="info-content">
+                <span class="close">&times;</span>
+                <h1>Welcome to JavaScript Calculator!</h1>
+                <h2>Keyboard Support</h2>
+                <p>Please press <strong>TAB</strong>, move the focus on display screen and then press <strong>Enter</strong> to input numbers and operations using just keyboard.</p>
+                <p> To clear all values press TAB + Enter again, to delete one digit press "Backspace" or:</p>
+                <p>Press TAB to move focus forward to use AC and DEL buttons.</p>
+                <p>Press Shift+TAB to move focus backwards.</p>
+            </div>
+        </div>
+
+
+    </header>
+    <main class="calculator">
+        <a class="display" href="">
+            <div id="previous" class="previous-number"></div>
+            <div id="current" class="current-number"></div>
+        </a>
+        <button id="all-clear" class="span-two">AC</button>
+        <button id="delete">DEL</button>
+        <button id="operation">÷</button>
+        <button id="number">1</button>
+        <button id="number">2</button>
+        <button id="number">3</button>
+        <button id="operation">x</button>
+        <button id="number">4</button>
+        <button id="number">5</button>
+        <button id="number">6</button>
+        <button id="operation">+</button>
+        <button id="number">7</button>
+        <button id="number">8</button>
+        <button id="number">9</button>
+        <button id="operation">-</button>
+        <button id="number">.</button>
+        <button id="number">0</button>
+        <button id="equals" class="span-two">=</button>
+
+    </main>
+</body>
+
+</html>
