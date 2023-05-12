@@ -138,7 +138,7 @@ const handleKeyboard = ({ repeat, shiftKey, key }) => {
         setOperation("-");
     } else if (shiftKey && key === '/') {
         setOperation("÷");
-    } else if (shiftKey && key === '*') {
+    } else if (key === '*') {
         setOperation("x");
     } else if (key === "Enter") {
         operate();
