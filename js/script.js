@@ -85,6 +85,9 @@ function setOperation(currentOperation) {
 
 function roundNumber(number) {
     const displayNumber = parseFloat(number).toFixed(2);
+    if(number==="ERR divByZero"){
+        return number;
+    }
     if (isNaN(displayNumber)) return "";
     return displayNumber;
 
